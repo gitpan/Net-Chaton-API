@@ -33,7 +33,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 # Preloaded methods go here.
@@ -178,7 +178,7 @@ the constructor method. Return instance of Chaton client.
 
 =over 
 
-=iterm login()
+=item login()
 
 Login to the room.
 
@@ -186,7 +186,7 @@ Login to the room.
 
 Post message to room.
 
-=iterm Observe()
+=item Observe()
 
 Start Observing the room.
 Notify message if enabled.
